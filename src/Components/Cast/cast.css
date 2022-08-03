@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+.names{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items:center;
+}
+.cast{
+    display: flex;
+    flex-direction: column;
+    padding-top:2em;
+    width:5vw;  
+    font-size: 0.9em;
+    font-family: Montserrat,sans-serif;
+}
+.castimg{
+    height:15vh;
+     width:13vh;
+    border-radius: 10px;
+}
+@media (max-width:950px) {
+    .cast{
+    width:10vw;  
+    font-size: 0.8em;
+}
+}
+@media (max-width:500px) {
+    .cast{
+    width:14vw; 
+    font-size: 0.6em;
+}
+.names{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+}
+.castimg{
+    height:9.5vh;
+     width:9.5vw; 
+}
+
+}
+

@@ -1,0 +1,39 @@
+#query{
+     padding: 10 ;border:none;outline:none;background:none;border-bottom:2px solid white;color:white;font-size:1.5em;width:80%;
+}
+#btn{
+    background: none ;
+    outline:none ;
+    border:none;
+}
+.form
+{
+    width:100%;
+    margin:1em auto;
+}
+.tabs{
+     width: 50%;
+       font-size: 1.2em;
+       margin:1em auto;
+     
+}
+ @media (max-width:500px) {
+.form{
+    width:100%;
+    margin: 0.5em auto;
+}
+.tabs{
+     width: 50%;    
+     font-size: 0.5em;
+}
+ }
+  @media (max-width:350px) {
+#query{
+    width:60%;
+    font-size: 1.1em;
+    margin-bottom: 0.7em;
+}
+#btn{
+    margin-left: 1em;
+}
+ }
